@@ -1,0 +1,187 @@
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 10px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom.affix {
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+.navbar-custom .navbar-brand {
+	font-size: 1.5em;
+}
+
+.navbar-custom .navbar-nav li a {
+  color: #18BC9C;
+}
+
+.navbar-custom .navbar-nav li a {
+  color: white;
+}
+
+
+/*header {
+	background: linear-gradient(transparent, white);
+}*/
+
+header {
+	background-image: url("/img/macbook.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 766px;
+}
+
+.name {
+	text-shadow: 2px 2px #2C3E50;
+}
+
+
+hr.star-light:after,
+hr.star-primary:after {
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+
+hr.topHR:after {
+  content: "\f109";
+  background-color: black;
+}
+hr.aboutHR {
+  border-color: #2C3E50;
+}
+hr.aboutHR:after {
+  color: #2C3E50;
+  background-color: #eeab39;
+}
+hr.techHR:after {
+  content: "\f11c";
+}
+
+hr.portfolioHR:after {
+  content: "\f121";
+  background-color: #222;
+}
+
+hr.contactHR:after {
+	content: "\f003";
+}
+
+  .navbar-custom {
+  	background-color: transparent;
+  }
+
+  .navbar-custom.affix {
+  	background-color: #222222;
+    /*opacity: .9;*/
+  	transition: all .4s;
+  }
+
+ .navbar-custom.affix li {
+    opacity: 1;
+  }
+
+.navbar-custom .navbar-nav li a:hover {
+  color: #eeab39;
+}
+
+.navbar-custom .navbar-brand {
+  color: transparent !important;
+}
+
+.navbar-custom.affix .navbar-brand {
+  color: white !important;
+}
+
+.navbar-custom .navbar-nav li.active a {
+  color: #222222;
+  background: #eeab39;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: #222222;
+  background: #eeab39;
+}
+
+
+/*.navbar-custom.affix:first-child {
+  color: white !important;
+}*/
+
+
+/*  .navbar-custom.affix:first-child {
+    color: red;
+  }*/
+
+#about {
+  background-color: #eeab39;
+}
+
+#portfolio {
+  background-color: #222;
+}
+
+/*#technologies {
+  background-color: #222;
+}*/
+
+.footer-above {
+  background-color: #222 !important;
+}
+
+.footer-below {
+  background-color: #111 !important;
+}
+
+.heinQuote p {
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 15px;
+}
+
+.finalQuote {
+	color: #2C3E50;
+  font-size: 1.1em;
+}
+
+.quoteSig {
+	font-size: 20px;
+}
+
+.sendBtn {
+  background-color: #eeab39;
+  border-color: #fcb947;
+}
+
+.sendBtn:hover {
+  background-color: #fcb947 !important;
+  border-color: #efaf60;
+}
+
+.sendBtn:focus {
+  background-color: #fcb947 !important;
+  border-color: #efaf60;
+}
+
+.sendBtn:active {
+  background-color: #fcb947 !important;
+  border-color: #efaf60;
+}
+

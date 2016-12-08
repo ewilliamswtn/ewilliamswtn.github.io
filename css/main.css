@@ -61,7 +61,7 @@ header {
 }
 @media (max-width: 400px) {
   header {
-    background: #000 url("/img/macbook.jpg") no-repeat fixed center;
+    background-position: 40% 10%;
   }
 }
 

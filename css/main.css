@@ -11,6 +11,7 @@
     -moz-transition: all 0.3s;
     transition: all 0.3s;
   }
+
   .navbar-custom.affix {
     padding: 10px 0;
   }
@@ -30,6 +31,68 @@
 .navbar-custom .navbar-nav li a {
   color: white;
 }
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #eeab39;
+  color: white;
+  border-color: #eeab39;
+}
+
+  .navbar-custom {
+    background-color: transparent;
+  }
+
+  .navbar-custom.affix {
+    background-color: #222222;
+    /*opacity: .9;*/
+    transition: all .4s;
+  }
+
+ .navbar-custom.affix li {
+    opacity: 1;
+  }
+
+.navbar-custom .navbar-nav li a:hover {
+  color: #eeab39;
+}
+
+.navbar-custom .navbar-brand {
+  color: transparent !important;
+}
+
+.navbar-custom.affix .navbar-brand {
+  color: white !important;
+}
+
+@media (max-width: 550px) {
+  .navbar-custom {
+    background-color: #222;
+    opacity: 1;
+    transition: .7s;
+  }
+}
+
+.navbar-custom .navbar-nav li.active a {
+  color: #222222;
+  background: #eeab39;
+}
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+  color: #222222;
+  background: #eeab39;
+}
+
+
+/*.navbar-custom.affix:first-child {
+  color: white !important;
+}*/
+
+
+/*  .navbar-custom.affix:first-child {
+    color: red;
+  }*/
 
 
 /*header {
@@ -107,53 +170,6 @@ hr.portfolioHR:after {
 hr.contactHR:after {
 	content: "\f003";
 }
-
-  .navbar-custom {
-  	background-color: transparent;
-  }
-
-  .navbar-custom.affix {
-  	background-color: #222222;
-    /*opacity: .9;*/
-  	transition: all .4s;
-  }
-
- .navbar-custom.affix li {
-    opacity: 1;
-  }
-
-.navbar-custom .navbar-nav li a:hover {
-  color: #eeab39;
-}
-
-.navbar-custom .navbar-brand {
-  color: transparent !important;
-}
-
-.navbar-custom.affix .navbar-brand {
-  color: white !important;
-}
-
-.navbar-custom .navbar-nav li.active a {
-  color: #222222;
-  background: #eeab39;
-}
-.navbar-custom .navbar-nav li.active a:hover,
-.navbar-custom .navbar-nav li.active a:focus,
-.navbar-custom .navbar-nav li.active a:active {
-  color: #222222;
-  background: #eeab39;
-}
-
-
-/*.navbar-custom.affix:first-child {
-  color: white !important;
-}*/
-
-
-/*  .navbar-custom.affix:first-child {
-    color: red;
-  }*/
 
 #about {
   background-color: #eeab39;

@@ -202,8 +202,109 @@ hr.contactHR:after {
   font-size: 1.1em;
 }
 
-.quoteSig {
-	font-size: 20px;
+.logoWrapper {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .logoWrapper img {
+    max-height: 200px;
+    max-width: 40%;
+  }
+  .handlebarsLogo {
+    margin-top: 65px;
+    margin-bottom: 55px;
+  }
+  .jqueryLogo {
+    margin-top: 65px;
+    margin-bottom: 55px;
+  }
+  .npmLogo {
+    margin-top: 65px;
+    margin-bottom: 55px;
+  }
+}
+
+@media (min-width: 769px) {
+  .quoteSig {
+  	font-size: 20px;
+  }
+
+  .angularLogo {
+    height: 150px;
+  }
+
+  .bootstrapLogo {
+    padding-top: 20px;
+    height: 130px;
+  }
+
+  .bowerLogo {
+    height: 125px;
+  }
+
+  .browserifyLogo {
+    height: 140px;
+  }
+
+  .csharpLogo {
+    height: 140px;
+  }
+
+  .css3Logo {
+    height: 140px;
+  }
+
+  .firebaseLogo {
+    height: 140px;
+  }
+
+  .gitLogo {
+    height: 140px;
+  }
+
+  .githubLogo {
+    height: 140px;
+  }
+
+  .gruntLogo {
+    height: 140px;
+  }
+
+  .handlebarsLogo {
+    max-width: 75%;
+    padding-top: 50px;
+  }
+
+  .html5Logo {
+    height: 140px;
+  }
+
+  .javascriptLogo {
+    height: 140px;
+  }
+
+  .jqueryLogo {
+    padding-top: 40px;
+    max-width: 75%;
+  }
+
+  .materializeLogo {
+    height: 130px;
+  }
+
+  .npmLogo {
+    padding-top: 40px;
+    max-width: 75%;
+  }
+
+  .sassLogo {
+    height: 140px;
+  }
+
+  .visualstudioLogo {
+    height: 140px;
+  }
 }
 
 .sendBtn {

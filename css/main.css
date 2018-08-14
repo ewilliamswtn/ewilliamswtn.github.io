@@ -121,15 +121,17 @@ header {
   header {
     min-height: 400px;
   }
-
-    hr {
+  hr {
     visibility: hidden;
   }
-
 }
+
 @media (max-width: 400px) {
   header {
     background-position: 40% 10%;
+  }
+  hr {
+    visibility: hidden;
   }
 }
 

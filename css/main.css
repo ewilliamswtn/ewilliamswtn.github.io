@@ -141,7 +141,7 @@ hr.star-primary:after {
   display: inline-block;
   position: relative;
   top: -0.8em;
-  font-size: 2em;
+  font-size: 20em;
   padding: 0 0.25em;
 }
 
@@ -348,8 +348,7 @@ hr.contactHR:after {
 and (min-device-width : 375px) 
 and (max-device-width : 812px)
 and (-webkit-device-pixel-ratio : 3) {
-  hr.star-light:after,
-  hr.star-primary:after {
+  hr {
     visibility: hidden;
   }
 }
@@ -358,8 +357,7 @@ and (-webkit-device-pixel-ratio : 3) {
 @media only screen 
 and (min-device-width : 375px) 
 and (max-device-width : 667px) {
-  hr.star-light:after,
-  hr.star-primary:after {
+  hr {
     visibility: hidden;
   }
 }
@@ -368,10 +366,8 @@ and (max-device-width : 667px) {
 @media only screen 
 and (min-device-width : 414px) 
 and (max-device-width : 736px) {
-  hr.star-light:after,
-  hr.star-primary:after {
-    visibility: hidden;
+hr {
+  visibility: hidden;
+}
   }
 }
-
-

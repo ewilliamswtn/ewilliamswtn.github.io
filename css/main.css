@@ -136,7 +136,7 @@ header {
 
 hr.star-light:after,
 hr.star-primary:after {
-  /*content: "\f005";*/
+  content: "\f005";
   font-family: FontAwesome;
   display: inline-block;
   position: relative;
@@ -146,7 +146,7 @@ hr.star-primary:after {
 }
 
 hr.topHR:after {
-  /*content: "\f109";*/
+  content: "\f109";
   background-color: black;
 }
 hr.aboutHR {
@@ -340,6 +340,38 @@ hr.contactHR:after {
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
   opacity: .8;
+}
+
+
+/*iphone x*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+  hr.star-light:after,
+  hr.star-primary:after {
+    visibility: hidden;
+  }
+}
+
+/*iphone 6, 7, 8*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+  hr.star-light:after,
+  hr.star-primary:after {
+    visibility: hidden;
+  }
+}
+
+/*iphone 6, 7, 8 plus*/
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+  hr.star-light:after,
+  hr.star-primary:after {
+    visibility: hidden;
+  }
 }
 
 

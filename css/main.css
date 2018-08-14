@@ -113,16 +113,35 @@ header {
 
 @media (max-width: 768px) {
   header {
-    min-height: 500px;
+    /*min-height: 500px;*/
+    min-height: 100vh;
+  }
+  span.name {
+    font-size: 4.75em !important;
+  }
+  .introTextWrapper {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 600px) {
+  header { 
+    background-position: 50% 50%;  
   }
 }
 
 @media (max-width: 500px) {
   header {
-    min-height: 400px;
+    min-height: 100vh;
   }
   hr {
     visibility: hidden;
+  }
+  span.skills {
+    font-size: 2em !important;
+  }
+  h2 {
+    font-size: 2em !important;
   }
 }
 
@@ -132,6 +151,12 @@ header {
   }
   hr {
     visibility: hidden;
+  }
+  span.name {
+    font-size: 2em !important;
+  }
+  span.skills {
+    font-size: 1.8em !important;
   }
 }
 

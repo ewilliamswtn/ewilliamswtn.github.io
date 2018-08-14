@@ -146,7 +146,7 @@ hr.star-primary:after {
 }
 
 hr.topHR:after {
-  content: "\f109";
+  /*content: "\f109";*/
   background-color: black;
 }
 hr.aboutHR {
